@@ -37,6 +37,7 @@ binom.f provides helper functions for stochastic ion channel behavior.
 
 -o eadca.out specifies the output executable name (eadca.out).
 
+
 Running the Simulation
 
 After compiling, run the executable:
@@ -55,4 +56,6 @@ Number of Stimuli: Controlled by the parameter nstim in eadca.f.
 
 Ion Channel Properties: Adjust rates in ca-currents.f and v-currents.f.
 
-License
+The output of the simulation is the file v1x.dat which will contain the voltage time course for the number of beats given.
+EADs occur for cycle lengths larger than roughly 520ms.  
+
