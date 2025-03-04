@@ -57,5 +57,6 @@ Number of Stimuli: Controlled by the parameter nstim in eadca.f.
 Ion Channel Properties: Adjust rates in ca-currents.f and v-currents.f.
 
 The output of the simulation is the file v1x.dat which will contain the voltage time course for the number of beats given.
-EADs occur for cycle lengths larger than roughly 520ms.  
+EADs occur for cycle lengths larger than roughly 520ms.  This file will generate the action potential used to construct
+the bifurcation diagram in Figure 3A and Figure 4D.  
 
